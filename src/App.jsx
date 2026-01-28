@@ -1,11 +1,13 @@
-import React from "react";
+import Footer from "./component/Footer";
+import Header from "./component/Header";
+import Main from "./component/Main";
 
 export default function App() {
   return (
     <div>
-      <h1 className=" public text-2xl font-bold text-red-600">
-        WELCOME TO My Food Recipe
-      </h1>
+      <Header />
+      <Main />
+      <Footer/>
     </div>
   );
 }
